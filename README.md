@@ -1,34 +1,52 @@
-# HOW TO USE
+# Main board for The Clock supporting WEMOS Lolin32 lite
 
-## Initialise your git repository
+> [WARNING] Please read carefully this note before using this project. It contains important facts.
 
-* clone this repository
-```
-git clone --recurse-submodules https://github.com/sporniket/seed-kicad.git your_project
-cd your_project
-```
-* Change the remote `origin` to your repository
-```
-git remote set-url origin https://your.repository/full/path/your_project.git
-```
-* Or remove the remote `origin`
-```
-git remote rm origin
-```
+Content
 
-* Replace this readme file by the template for a project readme, and edit to use your project name and repository url.
+1. What is **Main board for The Clock supporting WEMOS Lolin32 lite**, and when to use it ?
+2. What should you know before using **Main board for The Clock supporting WEMOS Lolin32 lite** ?
+3. How to use **Main board for The Clock supporting WEMOS Lolin32 lite** ?
+4. Known issues
+5. Miscellanous
 
-```
-mv README-template.md README.md
-sed -i.bak \
-	-e 's/{HUMAN_READABLE_PROJECT_NAME}/My greatest project of all time/g' \
-	-e 's+{GITHUB_USER__REPOSITORY}+foo/bar+g' \
-	-e 's/{SPECIFIC TOOL}/something/g' \
-	README.md
-```
+## 1. What is **Main board for The Clock supporting WEMOS Lolin32 lite**, and when to use it ?
 
-## Initialise a new Kicad project
+**Main board for The Clock supporting WEMOS Lolin32 lite**, as the name imply, is the hardware implementation of a seven-segment digital clock, synchronized to the network time using SNTP ; this particular implementation targets an ESP32 based development board known as _WEMOS Lolin32 lite_, that as been programmed using the esp32 based firmware.
 
-* Start Kicad
-* Create a new project located in your working copy of your git repository, or a new subfolder if you plan to manage several projects
-* Add the various libraries (symbols, footprints and 3d shapes) as project specific libraries.
+
+### Licence
+
+**Main board for The Clock supporting WEMOS Lolin32 lite** is published under the Creative Commons CC0 license. You can find a copy of the licence there : https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+
+**Main board for The Clock supporting WEMOS Lolin32 lite** is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+### Release notes
+
+> No releases yet
+
+## 2. What should you know before using **Main board for The Clock supporting WEMOS Lolin32 lite** ?
+
+**Main board for The Clock supporting WEMOS Lolin32 lite** is made using Kicad 7.
+
+> Do not use **Main board for The Clock supporting WEMOS Lolin32 lite** if this project is not suitable for your project.
+
+## 3. How to use **Main board for The Clock supporting WEMOS Lolin32 lite** ?
+
+### From sources
+
+To get the latest available work, one must clone the git repository, build and install the package.
+
+	git clone --recurse-submodules https://github.com/sporniket/the-clock--main-pcb-esp32--lolin32-lite.git
+
+Then, open the project with Kicad 7.
+
+## 4. Known issues
+See the [project issues](https://github.com/sporniket/the-clock--main-pcb-esp32--lolin32-lite/issues) page.
+
+## 5. Miscellanous
+
+### Report issues
+Use the [project issues](https://github.com/sporniket/the-clock--main-pcb-esp32--lolin32-lite/issues) page.
