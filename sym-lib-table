@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wemos_lolin32_lite")(type "Legacy")(uri "${KIPRJMOD}/kicad-symbols-generated/assemblies/esp32/wemos_lolin32_lite.lib")(options "")(descr ""))
+)
