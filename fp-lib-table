@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "assemblies_displays_modules")(type "KiCad")(uri "${KIPRJMOD}/kicad-footprints-handmade/assemblies_displays_modules.pretty")(options "")(descr ""))
+)
