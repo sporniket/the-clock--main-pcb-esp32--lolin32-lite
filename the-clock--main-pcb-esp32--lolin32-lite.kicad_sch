@@ -1056,30 +1056,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 50.8 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7fe15318-7c26-4e1c-9614-c73ad34f289a)
-    (property "Reference" "H5" (at 50.8 124.46 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "M2.5" (at 50.8 126.365 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 50.8 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 50.8 129.54 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "the-clock--main-pcb-esp32--lolin32-lite"
-        (path "/dfc91cd7-0548-4b37-8d64-94d7833ed062"
-          (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R_Small_US") (at 171.45 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ca7eb65-527f-417e-a993-39665660a730)
