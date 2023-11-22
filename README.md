@@ -25,7 +25,9 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 ### Release notes
 
-> No releases yet
+#### Version 0.1.0
+
+Initial release, includes an ambient light sensor using an LDR.
 
 ## 2. What should you know before using **Main board for The Clock supporting WEMOS Lolin32 lite** ?
 
