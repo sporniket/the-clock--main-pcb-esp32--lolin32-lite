@@ -6,8 +6,8 @@
 
   (title_block
     (title "The clock — Main board for WEMOS Lolin32 Lite")
-    (date "2023-11-19")
-    (rev "v0.0.0-draft")
+    (date "2023-11-22")
+    (rev "v0.1.0-rc1")
     (company "Sporniket")
     (comment 3 "https://github.com/sporniket/the-clock--main-pcb-esp32--lolin32-lite")
     (comment 4 "Original repository :")
