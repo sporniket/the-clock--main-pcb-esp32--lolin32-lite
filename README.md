@@ -25,6 +25,10 @@ You can copy, modify, distribute and perform the work, even for commercial purpo
 
 ### Release notes
 
+#### Version 0.1.1
+
+* Fixed : missing pull-up resistors for SDA/SCL
+
 #### Version 0.1.0
 
 Initial release, includes an ambient light sensor using an LDR.
