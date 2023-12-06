@@ -14,6 +14,9 @@ Content
 
 **Main board for The Clock supporting WEMOS Lolin32 lite**, as the name imply, is the hardware implementation of a seven-segment digital clock, synchronized to the network time using SNTP ; this particular implementation targets an ESP32 based development board known as _WEMOS Lolin32 lite_, that as been programmed using the esp32 based firmware.
 
+![front view](./gallery/v0.1/front_view.jpg)
+
+![top view](./gallery/v0.1/top_view.jpg)
 
 ### Licence
 
